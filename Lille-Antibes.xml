@@ -1,13 +1,13 @@
 <ActionVehicleJourneyDetailList>
 <Params Function="sncf">
-<date>2013|10|04</date>
+<date>2013|10|05</date>
 <VehicleJourneyName>9800</VehicleJourneyName>
 <CompanyExternalCode>OCESN;OCEES;OCESM;OCETH</CompanyExternalCode>
 <interface>2</interface>
 <action>VehicleJourneyDetailList</action>
 </Params>
 <VehicleJourneyList VehicleJourneyCount="1">
-<VehicleJourney VehicleJourneyIdx="40270" VehicleJourneyId="40269" VehicleJourneyName="9800" VehicleJourneyRouteIdx="9566" VehicleJourneyExternalCode="OCESN009800F01005" IsAdapted="0">
+<VehicleJourney VehicleJourneyIdx="40267" VehicleJourneyId="40266" VehicleJourneyName="9800" VehicleJourneyRouteIdx="9566" VehicleJourneyExternalCode="OCESN009800F01005-14362-0" IsAdapted="0">
 <Route RouteIdx="9566" RouteId="9565" RouteName="Bruxelles-M./Brussel-Z. vers Marseille-St-Charles" RouteExternalCode="OCETGV-88140010-87751008-1" IsForward="1" RouteLineIdx="2777" IsFrequence="0" IsAdapted="0">
 <Line LineIdx="2777" LineId="2776" LineName="Bruxelles-M./Brussel-Z. - Marseille-St-Charles" LineCode="" LineExternalCode="OCETGV-88140010-87751008" LineAdditionalData="" SortOrder="2777" LineColor="" HasAdaptedRoute="0">
 <ModeType ModeTypeIdx="21" ModeTypeExternalCode="OCETGV" ModeTypeName="TGV"/>
@@ -34,62 +34,14 @@
 <Mode ModeIdx="21" ModeId="11" ModeName="TGV" ModeExternalCode="OCETGV" ModeTypeExternalCode="OCETGV"/>
 <Company CompanyIdx="27" CompanyId="26" CompanyName="SNCF CRS" CompanyExternalCode="OCESN"/>
 <Vehicle VehicleIdx="48" VehicleId="47" VehicleName="TGB" VehicleExternalCode="OCETGB" MIPAccess="False" BikeAccepted="False" AirConditioned="False"/>
-<ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="0" ValidityPatternIdx="696">
-000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111100111110010000000000000000000011111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="0" ValidityPatternIdx="729">
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000001101111111000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 </ValidityPattern>
-<ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="1" ValidityPatternIdx="696">
-000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111100111110010000000000000000000011111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+<ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="1" ValidityPatternIdx="729">
+000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000001101111111000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 </ValidityPattern>
-<StopList StopCount="8">
-<Stop StopIdx="221154" StopPointIdx="498" VehicleJourneyIdx="40270" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="0" VehicleIdx="48">
-<StopTime>
-<TotalSeconds>29880</TotalSeconds>
-<Day>0</Day>
-<Hour>08</Hour>
-<Minute>18</Minute>
-</StopTime>
-<StopArrivalTime/>
-<StopPoint StopPointIdx="498" StopPointId="500" StopPointName="gare de Bruxelles-M./Brussel-Z." StopPointExternalCode="OCETGV-88140010" FareZone="0">
-<StopPointAddress StopPointAddressName="" StopPointAddressNumber="" StopPointAddressTypeName=""/>
-<Equipment Sheltered="False" MIPAccess="False" Elevator="False" Escalator="False" BikeAccepted="False" BikeDepot="False"/>
-<Mode ModeIdx="21" ModeId="11" ModeName="TGV" ModeExternalCode="OCETGV" ModeTypeExternalCode="OCETGV"/>
-<City CityIdx="0" CityId="-1" CityName="" CityExternalCode="" CityCode=""></City>
-<Coord/>
-<ImpactPosList ImpactPosCount="0"></ImpactPosList>
-</StopPoint>
-<VehicleJourneyNameAtStop>9800</VehicleJourneyNameAtStop>
-<Quai Numero="" Voie=""/>
-<ImpactPosList ImpactPosCount="0"></ImpactPosList>
-</Stop>
-<Stop StopIdx="253798" StopPointIdx="7416" VehicleJourneyIdx="40270" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="1" VehicleIdx="48">
-<StopTime>
-<TotalSeconds>32520</TotalSeconds>
-<Day>0</Day>
-<Hour>09</Hour>
-<Minute>02</Minute>
-</StopTime>
-<StopArrivalTime>
-<TotalSeconds>31920</TotalSeconds>
-<Day>0</Day>
-<Hour>08</Hour>
-<Minute>52</Minute>
-</StopArrivalTime>
-<StopPoint StopPointIdx="7416" StopPointId="7417" StopPointName="gare de Lille Europe" StopPointExternalCode="OCETGV-87223263" FareZone="0">
-<StopPointAddress StopPointAddressName="" StopPointAddressNumber="" StopPointAddressTypeName=""/>
-<Equipment Sheltered="False" MIPAccess="False" Elevator="False" Escalator="False" BikeAccepted="False" BikeDepot="False"/>
-<Mode ModeIdx="21" ModeId="11" ModeName="TGV" ModeExternalCode="OCETGV" ModeTypeExternalCode="OCETGV"/>
-<City CityIdx="12984" CityId="23390" CityName="Lille" CityExternalCode="59350" CityCode="59800"></City>
-<Coord>
-<CoordX>652410</CoordX>
-<CoordY>2627423</CoordY>
-</Coord>
-<ImpactPosList ImpactPosCount="0"></ImpactPosList>
-</StopPoint>
-<VehicleJourneyNameAtStop>9800</VehicleJourneyNameAtStop>
-<Quai Numero="" Voie=""/>
-<ImpactPosList ImpactPosCount="0"></ImpactPosList>
-</Stop>
-<Stop StopIdx="287578" StopPointIdx="4682" VehicleJourneyIdx="40270" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="2" VehicleIdx="48">
+<StopList StopCount="6">
+<Stop StopIdx="287577" StopPointIdx="4682" VehicleJourneyIdx="40267" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="0" VehicleIdx="48">
 <StopTime>
 <TotalSeconds>35880</TotalSeconds>
 <Day>0</Day>
@@ -117,7 +69,7 @@
 <Quai Numero="" Voie=""/>
 <ImpactPosList ImpactPosCount="0"></ImpactPosList>
 </Stop>
-<Stop StopIdx="294611" StopPointIdx="3794" VehicleJourneyIdx="40270" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="3" VehicleIdx="48">
+<Stop StopIdx="294610" StopPointIdx="3794" VehicleJourneyIdx="40267" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="1" VehicleIdx="48">
 <StopTime>
 <TotalSeconds>36660</TotalSeconds>
 <Day>0</Day>
@@ -145,7 +97,7 @@
 <Quai Numero="" Voie=""/>
 <ImpactPosList ImpactPosCount="0"></ImpactPosList>
 </Stop>
-<Stop StopIdx="353396" StopPointIdx="12873" VehicleJourneyIdx="40270" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="4" VehicleIdx="48">
+<Stop StopIdx="353395" StopPointIdx="12873" VehicleJourneyIdx="40267" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="2" VehicleIdx="48">
 <StopTime>
 <TotalSeconds>43560</TotalSeconds>
 <Day>0</Day>
@@ -173,7 +125,7 @@
 <Quai Numero="" Voie=""/>
 <ImpactPosList ImpactPosCount="0"></ImpactPosList>
 </Stop>
-<Stop StopIdx="394022" StopPointIdx="14322" VehicleJourneyIdx="40270" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="5" VehicleIdx="48">
+<Stop StopIdx="394021" StopPointIdx="14322" VehicleJourneyIdx="40267" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="3" VehicleIdx="48">
 <StopTime>
 <TotalSeconds>47520</TotalSeconds>
 <Day>0</Day>
@@ -201,7 +153,7 @@
 <Quai Numero="" Voie=""/>
 <ImpactPosList ImpactPosCount="0"></ImpactPosList>
 </Stop>
-<Stop StopIdx="407892" StopPointIdx="14195" VehicleJourneyIdx="40270" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="6" VehicleIdx="48">
+<Stop StopIdx="407891" StopPointIdx="14195" VehicleJourneyIdx="40267" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="4" VehicleIdx="48">
 <StopTime>
 <TotalSeconds>48840</TotalSeconds>
 <Day>0</Day>
@@ -229,7 +181,7 @@
 <Quai Numero="" Voie=""/>
 <ImpactPosList ImpactPosCount="0"></ImpactPosList>
 </Stop>
-<Stop StopIdx="41617" StopPointIdx="14227" VehicleJourneyIdx="40270" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="7" VehicleIdx="48">
+<Stop StopIdx="41614" StopPointIdx="14227" VehicleJourneyIdx="40267" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="5" VehicleIdx="48">
 <StopTime/>
 <StopArrivalTime>
 <TotalSeconds>49860</TotalSeconds>
@@ -255,25 +207,25 @@
 </StopList>
 <ImpactPosList ImpactPosCount="0"></ImpactPosList>
 <VJOnBoardServiceList VJOnBoardServiceCount="4">
-<VJOnBoardService VJOnBoardServiceIdx="20311">
+<VJOnBoardService VJOnBoardServiceIdx="20343">
 <OnBoardService OnBoardServiceIdx="3" OnBoardServiceExternalCode="OCEBA" OnBoardServiceName="BAR" OnBoardServiceType="OnboardService"/>
 <ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="0" ValidityPatternIdx="3971">
 000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111000000000000111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 </ValidityPattern>
 </VJOnBoardService>
-<VJOnBoardService VJOnBoardServiceIdx="20312">
+<VJOnBoardService VJOnBoardServiceIdx="20344">
 <OnBoardService OnBoardServiceIdx="8" OnBoardServiceExternalCode="OCENO" OnBoardServiceName="NO" OnBoardServiceType="Nuancement"/>
 <ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="0" ValidityPatternIdx="8709">
 000000000000000000000000000000000000000000000000000001110101111010011100001110000111000011100001110000111000011100001110000000000000000001110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 </ValidityPattern>
 </VJOnBoardService>
-<VJOnBoardService VJOnBoardServiceIdx="20313">
+<VJOnBoardService VJOnBoardServiceIdx="20345">
 <OnBoardService OnBoardServiceIdx="10" OnBoardServiceExternalCode="OCEN4" OnBoardServiceName="N4" OnBoardServiceType="Nuancement"/>
 <ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="0" ValidityPatternIdx="8708">
 000000000000000000000000000000000000000000000000000000001010000101100011110001111000111100011110001111000111100011110001111000000000000110001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 </ValidityPattern>
 </VJOnBoardService>
-<VJOnBoardService VJOnBoardServiceIdx="20314">
+<VJOnBoardService VJOnBoardServiceIdx="20346">
 <OnBoardService OnBoardServiceIdx="11" OnBoardServiceExternalCode="OCEHP" OnBoardServiceName="HANDICAPES ET HMR" OnBoardServiceType="OnboardService"/>
 <ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="0" ValidityPatternIdx="3971">
 000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111000000000000111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
@@ -281,19 +233,19 @@
 </VJOnBoardService>
 </VJOnBoardServiceList>
 <VJBookingTypeList VJBookingTypeCount="3">
-<VJBookingType VJBookingTypeIdx="25363">
+<VJBookingType VJBookingTypeIdx="25387">
 <BookingType BookingTypeIdx="5" BookingTypeExternalCode="OCEA" BookingTypeName="ASSISE" BookingTypeReservationType="RN" BookingTypeClassType="Premiere"/>
 <ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="0" ValidityPatternIdx="3971">
 000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111000000000000111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 </ValidityPattern>
 </VJBookingType>
-<VJBookingType VJBookingTypeIdx="25364">
+<VJBookingType VJBookingTypeIdx="25388">
 <BookingType BookingTypeIdx="6" BookingTypeExternalCode="OCEB" BookingTypeName="ASSISE" BookingTypeReservationType="RN" BookingTypeClassType="Seconde"/>
 <ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="0" ValidityPatternIdx="3971">
 000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111000000000000111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 </ValidityPattern>
 </VJBookingType>
-<VJBookingType VJBookingTypeIdx="25365">
+<VJBookingType VJBookingTypeIdx="25389">
 <BookingType BookingTypeIdx="19" BookingTypeExternalCode="OCEX" BookingTypeName="BAR" BookingTypeReservationType="Undefined" BookingTypeClassType="Undefined"/>
 <ValidityPattern ValidityPatternBeginningDay="2013|06|21" IsAdapted="0" ValidityPatternIdx="3971">
 000000000000000000000000000000000000000000000000000001111111111111111111111111111111111111111111111111111111111111111111111000000000000111111000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

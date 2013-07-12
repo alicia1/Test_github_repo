@@ -1,0 +1,533 @@
+<ActionVehicleJourneyDetailList>
+<Params Function="sncf">
+<date>2013|07|11</date>
+<VehicleJourneyName>17629</VehicleJourneyName>
+<CompanyExternalCode>;OCEES;OCESM;OCETH;OCESN</CompanyExternalCode>
+<interface>2</interface>
+<action>VehicleJourneyDetailList</action>
+</Params>
+<VehicleJourneyList VehicleJourneyCount="1">
+<VehicleJourney VehicleJourneyIdx="17737" VehicleJourneyId="17736" VehicleJourneyName="17629" VehicleJourneyRouteIdx="4992" VehicleJourneyExternalCode="OCESN017629F02005" IsAdapted="0">
+<Route RouteIdx="4992" RouteId="4991" RouteName="Lyon-Part-Dieu vers Grenoble" RouteExternalCode="OCETrain TER-87723197-87747006-2" IsForward="0" RouteLineIdx="1625" IsFrequence="0" IsAdapted="0">
+<Line LineIdx="1625" LineId="1624" LineName="Grenoble - Lyon-Part-Dieu" LineCode="" LineExternalCode="OCETrain TER-87747006-87723197" LineAdditionalData="" SortOrder="1625" LineColor="" HasAdaptedRoute="0">
+<ModeType ModeTypeIdx="24" ModeTypeExternalCode="OCETrain TER" ModeTypeName="Train TER"/>
+<Network NetworkIdx="2" NetworkId="1" NetworkName="SNCF" NetworkExternalCode="OCESN">
+<ImpactPosList ImpactPosCount="0"></ImpactPosList>
+</Network>
+<Forward ForwardName="Grenoble vers Lyon-Part-Dieu"></Forward>
+<Backward BackwardName="Lyon-Part-Dieu vers Grenoble"></Backward>
+<ImpactPosList ImpactPosCount="0"></ImpactPosList>
+</Line>
+<ImpactPosList ImpactPosCount="0"></ImpactPosList>
+</Route>
+<Destination>
+<StopArea StopAreaIdx="7898" StopAreaId="7911" StopAreaName="gare de Grenoble" StopAreaExternalCode="OCE87747006" MainStopArea="1" MultiModal="0" CarPark="0" MainConnection="1" AdditionalData="" ResaRailCode="">
+<City CityIdx="30814" CityId="14860" CityName="Grenoble" CityExternalCode="38185" CityCode="38000">
+<Country CountryIdx="1" CountryId="0" CountryName="France" CountryExternalCode="FRA"/>
+</City>
+<Coord>
+<CoordX>865445</CoordX>
+<CoordY>2026915</CoordY>
+</Coord>
+</StopArea>
+</Destination>
+<Mode ModeIdx="24" ModeId="20" ModeName="Train TER" ModeExternalCode="OCETrain TER" ModeTypeExternalCode="OCETrain TER"/>
+<Company CompanyIdx="27" CompanyId="26" CompanyName="SNCF CRS" CompanyExternalCode="OCESN"/>
+<Vehicle VehicleIdx="8" VehicleId="7" VehicleName="TER" VehicleExternalCode="OCETER" MIPAccess="False" BikeAccepted="False" AirConditioned="False"/>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="0" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="1" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+<StopList StopCount="6">
+<Stop StopIdx="533160" StopPointIdx="12871" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="0" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>62040</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>14</Minute>
+</StopTime>
+<StopArrivalTime/>
+<StopPoint StopPointIdx="12871" StopPointId="12875" StopPointName="gare de Lyon-Part-Dieu" StopPointExternalCode="OCETrain TER-87723197" FareZone="0">
+<StopPointAddress StopPointAddressName="" StopPointAddressNumber="" StopPointAddressTypeName=""/>
+<Equipment Sheltered="False" MIPAccess="False" Elevator="False" Escalator="False" BikeAccepted="False" BikeDepot="False"/>
+<Mode ModeIdx="24" ModeId="20" ModeName="Train TER" ModeExternalCode="OCETrain TER" ModeTypeExternalCode="OCETrain TER"/>
+<City CityIdx="31622" CityId="28535" CityName="Lyon" CityExternalCode="69123" CityCode="69001"></City>
+<Coord>
+<CoordX>796248</CoordX>
+<CoordY>2087623</CoordY>
+</Coord>
+<ImpactPosList ImpactPosCount="0"></ImpactPosList>
+</StopPoint>
+<Quai Numero="" Voie=""/>
+<ImpactPosList ImpactPosCount="1">
+<ImpactPos>1</ImpactPos>
+</ImpactPosList>
+</Stop>
+<Stop StopIdx="549529" StopPointIdx="12665" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="1" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>63180</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>33</Minute>
+</StopTime>
+<StopArrivalTime>
+<TotalSeconds>63060</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>31</Minute>
+</StopArrivalTime>
+<StopPoint StopPointIdx="12665" StopPointId="12666" StopPointName="gare de La Verpillière" StopPointExternalCode="OCETrain TER-87723395" FareZone="0">
+<StopPointAddress StopPointAddressName="" StopPointAddressNumber="" StopPointAddressTypeName=""/>
+<Equipment Sheltered="False" MIPAccess="False" Elevator="False" Escalator="False" BikeAccepted="False" BikeDepot="False"/>
+<Mode ModeIdx="24" ModeId="20" ModeName="Train TER" ModeExternalCode="OCETrain TER" ModeTypeExternalCode="OCETrain TER"/>
+<City CityIdx="31144" CityId="15190" CityName="La Verpillière" CityExternalCode="38537" CityCode="38290"></City>
+<Coord>
+<CoordX>819428</CoordX>
+<CoordY>2073620</CoordY>
+</Coord>
+<ImpactPosList ImpactPosCount="0"></ImpactPosList>
+</StopPoint>
+<Quai Numero="" Voie=""/>
+<ImpactPosList ImpactPosCount="1">
+<ImpactPos>3</ImpactPos>
+</ImpactPosList>
+</Stop>
+<Stop StopIdx="556719" StopPointIdx="12577" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="2" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>63660</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>41</Minute>
+</StopTime>
+<StopArrivalTime>
+<TotalSeconds>63540</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>39</Minute>
+</StopArrivalTime>
+<StopPoint StopPointIdx="12577" StopPointId="12578" StopPointName="gare de Bourgoin-Jallieu" StopPointExternalCode="OCETrain TER-87723429" FareZone="0">
+<StopPointAddress StopPointAddressName="" StopPointAddressNumber="" StopPointAddressTypeName=""/>
+<Equipment Sheltered="False" MIPAccess="False" Elevator="False" Escalator="False" BikeAccepted="False" BikeDepot="False"/>
+<Mode ModeIdx="24" ModeId="20" ModeName="Train TER" ModeExternalCode="OCETrain TER" ModeTypeExternalCode="OCETrain TER"/>
+<City CityIdx="30693" CityId="14739" CityName="Bourgoin-Jallieu" CityExternalCode="38053" CityCode="38300"></City>
+<Coord>
+<CoordX>829164</CoordX>
+<CoordY>2069123</CoordY>
+</Coord>
+<ImpactPosList ImpactPosCount="0"></ImpactPosList>
+</StopPoint>
+<Quai Numero="" Voie=""/>
+<ImpactPosList ImpactPosCount="1">
+<ImpactPos>4</ImpactPos>
+</ImpactPosList>
+</Stop>
+<Stop StopIdx="566615" StopPointIdx="12661" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="3" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>64320</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>52</Minute>
+</StopTime>
+<StopArrivalTime>
+<TotalSeconds>64200</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>50</Minute>
+</StopArrivalTime>
+<StopPoint StopPointIdx="12661" StopPointId="12660" StopPointName="gare de La Tour-du-Pin" StopPointExternalCode="OCETrain TER-87723478" FareZone="0">
+<StopPointAddress StopPointAddressName="" StopPointAddressNumber="" StopPointAddressTypeName=""/>
+<Equipment Sheltered="False" MIPAccess="False" Elevator="False" Escalator="False" BikeAccepted="False" BikeDepot="False"/>
+<Mode ModeIdx="24" ModeId="20" ModeName="Train TER" ModeExternalCode="OCETrain TER" ModeTypeExternalCode="OCETrain TER"/>
+<City CityIdx="31117" CityId="15163" CityName="La Tour-du-Pin" CityExternalCode="38509" CityCode="38110"></City>
+<Coord>
+<CoordX>843011</CoordX>
+<CoordY>2067015</CoordY>
+</Coord>
+<ImpactPosList ImpactPosCount="0"></ImpactPosList>
+</StopPoint>
+<Quai Numero="" Voie=""/>
+<ImpactPosList ImpactPosCount="1">
+<ImpactPos>5</ImpactPos>
+</ImpactPosList>
+</Stop>
+<Stop StopIdx="592976" StopPointIdx="12687" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="4" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>66060</TotalSeconds>
+<Day>0</Day>
+<Hour>18</Hour>
+<Minute>21</Minute>
+</StopTime>
+<StopArrivalTime>
+<TotalSeconds>66000</TotalSeconds>
+<Day>0</Day>
+<Hour>18</Hour>
+<Minute>20</Minute>
+</StopArrivalTime>
+<StopPoint StopPointIdx="12687" StopPointId="12687" StopPointName="gare de Voiron" StopPointExternalCode="OCETrain TER-87747287" FareZone="0">
+<StopPointAddress StopPointAddressName="" StopPointAddressNumber="" StopPointAddressTypeName=""/>
+<Equipment Sheltered="False" MIPAccess="False" Elevator="False" Escalator="False" BikeAccepted="False" BikeDepot="False"/>
+<Mode ModeIdx="24" ModeId="20" ModeName="Train TER" ModeExternalCode="OCETrain TER" ModeTypeExternalCode="OCETrain TER"/>
+<City CityIdx="31170" CityId="15216" CityName="Voiron" CityExternalCode="38563" CityCode="38500"></City>
+<Coord>
+<CoordX>855256</CoordX>
+<CoordY>2045682</CoordY>
+</Coord>
+<ImpactPosList ImpactPosCount="0"></ImpactPosList>
+</StopPoint>
+<Quai Numero="" Voie=""/>
+<ImpactPosList ImpactPosCount="1">
+<ImpactPos>7</ImpactPos>
+</ImpactPosList>
+</Stop>
+<Stop StopIdx="17748" StopPointIdx="12604" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="5" VehicleIdx="8">
+<StopTime/>
+<StopArrivalTime>
+<TotalSeconds>67020</TotalSeconds>
+<Day>0</Day>
+<Hour>18</Hour>
+<Minute>37</Minute>
+</StopArrivalTime>
+<StopPoint StopPointIdx="12604" StopPointId="12605" StopPointName="gare de Grenoble" StopPointExternalCode="OCETrain TER-87747006" FareZone="0">
+<StopPointAddress StopPointAddressName="" StopPointAddressNumber="" StopPointAddressTypeName=""/>
+<Equipment Sheltered="False" MIPAccess="False" Elevator="False" Escalator="False" BikeAccepted="False" BikeDepot="False"/>
+<Mode ModeIdx="24" ModeId="20" ModeName="Train TER" ModeExternalCode="OCETrain TER" ModeTypeExternalCode="OCETrain TER"/>
+<City CityIdx="30814" CityId="14860" CityName="Grenoble" CityExternalCode="38185" CityCode="38000"></City>
+<Coord>
+<CoordX>865445</CoordX>
+<CoordY>2026915</CoordY>
+</Coord>
+<ImpactPosList ImpactPosCount="0"></ImpactPosList>
+</StopPoint>
+<Quai Numero="" Voie=""/>
+<ImpactPosList ImpactPosCount="1">
+<ImpactPos>6</ImpactPos>
+</ImpactPosList>
+</Stop>
+</StopList>
+<ImpactPosList ImpactPosCount="1">
+<ImpactPos>2</ImpactPos>
+</ImpactPosList>
+<VJOnBoardServiceList VJOnBoardServiceCount="1">
+<VJOnBoardService VJOnBoardServiceIdx="21779">
+<OnBoardService OnBoardServiceIdx="9" OnBoardServiceExternalCode="OCEVG" OnBoardServiceName="VELO GRATUIT" OnBoardServiceType="OnboardService"/>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="0" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+</VJOnBoardService>
+</VJOnBoardServiceList>
+<VJBookingTypeList VJBookingTypeCount="2">
+<VJBookingType VJBookingTypeIdx="26992">
+<BookingType BookingTypeIdx="13" BookingTypeExternalCode="OCEA" BookingTypeName="ASSISE" BookingTypeReservationType="Undefined" BookingTypeClassType="Premiere"/>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="0" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+</VJBookingType>
+<VJBookingType VJBookingTypeIdx="26993">
+<BookingType BookingTypeIdx="4" BookingTypeExternalCode="OCEB" BookingTypeName="ASSISE" BookingTypeReservationType="Undefined" BookingTypeClassType="Seconde"/>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="0" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+</VJBookingType>
+</VJBookingTypeList>
+</VehicleJourney>
+</VehicleJourneyList>
+<ImpactList ImpactCount="7">
+<Impact ID="IRE0">
+<Stop StopIdx="533160" StopPointIdx="12871" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="0" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>62040</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>14</Minute>
+</StopTime>
+<StopArrivalTime/>
+</Stop>
+<ImpactState>Disrupt</ImpactState>
+<ImpactStartDate>2013-07-11T00:00:00</ImpactStartDate>
+<ImpactEndDate>2013-07-11T23:59:00</ImpactEndDate>
+<ImpactCloseDate/>
+<ImpactDuration>0</ImpactDuration>
+<ImpactMessage>Attente d'un membre du personnel</ImpactMessage>
+<ImpactIREInfo>
+<IREZoneImpact>1</IREZoneImpact>
+<IREDegrade>0</IREDegrade>
+<IREDepart_EcartInterne>0</IREDepart_EcartInterne>
+<IREDepart_EcartExterne>0</IREDepart_EcartExterne>
+<IREDepart_Statut IREDepart_StatutCode="7">Suppression totale</IREDepart_Statut>
+<IREArrivee_EcartInterne>0</IREArrivee_EcartInterne>
+<IREArrivee_EcartExterne>0</IREArrivee_EcartExterne>
+<IREArrivee_Statut IREArrivee_StatutCode="0"/>
+</ImpactIREInfo>
+<Event EventID="" ProviderID="">
+<EventLevelTitle/>
+<EventTitle/>
+<EventExternalCode/>
+<EventPublicationStartDate/>
+<EventPublicationEndDate/>
+</Event>
+</Impact>
+<Impact ID="IRE1">
+<VehicleJourney VehicleJourneyIdx="17737" VehicleJourneyId="17736" VehicleJourneyName="17629" VehicleJourneyRouteIdx="4992" VehicleJourneyExternalCode="OCESN017629F02005" IsAdapted="0">
+<Destination>
+<StopArea StopAreaIdx="7898" StopAreaId="7911" StopAreaName="gare de Grenoble" StopAreaExternalCode="OCE87747006" MainStopArea="1" MultiModal="0" CarPark="0" MainConnection="1" AdditionalData="" ResaRailCode="">
+<City CityIdx="30814" CityId="14860" CityName="Grenoble" CityExternalCode="38185" CityCode="38000">
+<Country CountryIdx="1" CountryId="0" CountryName="France" CountryExternalCode="FRA"/>
+</City>
+<Coord>
+<CoordX>865445</CoordX>
+<CoordY>2026915</CoordY>
+</Coord>
+</StopArea>
+</Destination>
+<Mode ModeIdx="24" ModeId="20" ModeName="Train TER" ModeExternalCode="OCETrain TER" ModeTypeExternalCode="OCETrain TER"/>
+<Company CompanyIdx="27" CompanyId="26" CompanyName="SNCF CRS" CompanyExternalCode="OCESN"/>
+<Vehicle VehicleIdx="8" VehicleId="7" VehicleName="TER" VehicleExternalCode="OCETER" MIPAccess="False" BikeAccepted="False" AirConditioned="False"/>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="0" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="1" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+<VJOnBoardServiceList VJOnBoardServiceCount="1">
+<VJOnBoardService VJOnBoardServiceIdx="21779">
+<OnBoardService OnBoardServiceIdx="9" OnBoardServiceExternalCode="OCEVG" OnBoardServiceName="VELO GRATUIT" OnBoardServiceType="OnboardService"/>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="0" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+</VJOnBoardService>
+</VJOnBoardServiceList>
+<VJBookingTypeList VJBookingTypeCount="2">
+<VJBookingType VJBookingTypeIdx="26992">
+<BookingType BookingTypeIdx="13" BookingTypeExternalCode="OCEA" BookingTypeName="ASSISE" BookingTypeReservationType="Undefined" BookingTypeClassType="Premiere"/>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="0" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+</VJBookingType>
+<VJBookingType VJBookingTypeIdx="26993">
+<BookingType BookingTypeIdx="4" BookingTypeExternalCode="OCEB" BookingTypeName="ASSISE" BookingTypeReservationType="Undefined" BookingTypeClassType="Seconde"/>
+<ValidityPattern ValidityPatternBeginningDay="2013|06|20" IsAdapted="0" ValidityPatternIdx="9097">
+0000000000111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111000000110000111111111111111111111110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+</ValidityPattern>
+</VJBookingType>
+</VJBookingTypeList>
+</VehicleJourney>
+<ImpactState>Disrupt</ImpactState>
+<ImpactStartDate>2013-07-11T00:00:00</ImpactStartDate>
+<ImpactEndDate>2013-07-11T23:59:00</ImpactEndDate>
+<ImpactCloseDate/>
+<ImpactDuration>0</ImpactDuration>
+<ImpactMessage>
+Train supprimé suite à Attente d'un membre du personnel
+</ImpactMessage>
+<ImpactIREInfo>
+<IREZoneImpact>0</IREZoneImpact>
+<IREDegrade>0</IREDegrade>
+<IREDepart_EcartInterne>0</IREDepart_EcartInterne>
+<IREDepart_EcartExterne>0</IREDepart_EcartExterne>
+<IREDepart_Statut IREDepart_StatutCode="0"/>
+<IREArrivee_EcartInterne>0</IREArrivee_EcartInterne>
+<IREArrivee_EcartExterne>0</IREArrivee_EcartExterne>
+<IREArrivee_Statut IREArrivee_StatutCode="0"/>
+</ImpactIREInfo>
+<Event EventID="" ProviderID="">
+<EventLevelTitle/>
+<EventTitle/>
+<EventExternalCode/>
+<EventPublicationStartDate/>
+<EventPublicationEndDate/>
+</Event>
+</Impact>
+<Impact ID="IRE2">
+<Stop StopIdx="549529" StopPointIdx="12665" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="1" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>63180</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>33</Minute>
+</StopTime>
+<StopArrivalTime>
+<TotalSeconds>63060</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>31</Minute>
+</StopArrivalTime>
+</Stop>
+<ImpactState>Disrupt</ImpactState>
+<ImpactStartDate>2013-07-11T00:00:00</ImpactStartDate>
+<ImpactEndDate>2013-07-11T23:59:00</ImpactEndDate>
+<ImpactCloseDate/>
+<ImpactDuration>0</ImpactDuration>
+<ImpactMessage>Attente d'un membre du personnel</ImpactMessage>
+<ImpactIREInfo>
+<IREZoneImpact>0</IREZoneImpact>
+<IREDegrade>0</IREDegrade>
+<IREDepart_EcartInterne>0</IREDepart_EcartInterne>
+<IREDepart_EcartExterne>0</IREDepart_EcartExterne>
+<IREDepart_Statut IREDepart_StatutCode="7">Suppression totale</IREDepart_Statut>
+<IREArrivee_EcartInterne>0</IREArrivee_EcartInterne>
+<IREArrivee_EcartExterne>0</IREArrivee_EcartExterne>
+<IREArrivee_Statut IREArrivee_StatutCode="7">Suppression totale</IREArrivee_Statut>
+</ImpactIREInfo>
+<Event EventID="" ProviderID="">
+<EventLevelTitle/>
+<EventTitle/>
+<EventExternalCode/>
+<EventPublicationStartDate/>
+<EventPublicationEndDate/>
+</Event>
+</Impact>
+<Impact ID="IRE3">
+<Stop StopIdx="556719" StopPointIdx="12577" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="2" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>63660</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>41</Minute>
+</StopTime>
+<StopArrivalTime>
+<TotalSeconds>63540</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>39</Minute>
+</StopArrivalTime>
+</Stop>
+<ImpactState>Disrupt</ImpactState>
+<ImpactStartDate>2013-07-11T00:00:00</ImpactStartDate>
+<ImpactEndDate>2013-07-11T23:59:00</ImpactEndDate>
+<ImpactCloseDate/>
+<ImpactDuration>0</ImpactDuration>
+<ImpactMessage>Attente d'un membre du personnel</ImpactMessage>
+<ImpactIREInfo>
+<IREZoneImpact>0</IREZoneImpact>
+<IREDegrade>0</IREDegrade>
+<IREDepart_EcartInterne>0</IREDepart_EcartInterne>
+<IREDepart_EcartExterne>0</IREDepart_EcartExterne>
+<IREDepart_Statut IREDepart_StatutCode="7">Suppression totale</IREDepart_Statut>
+<IREArrivee_EcartInterne>0</IREArrivee_EcartInterne>
+<IREArrivee_EcartExterne>0</IREArrivee_EcartExterne>
+<IREArrivee_Statut IREArrivee_StatutCode="7">Suppression totale</IREArrivee_Statut>
+</ImpactIREInfo>
+<Event EventID="" ProviderID="">
+<EventLevelTitle/>
+<EventTitle/>
+<EventExternalCode/>
+<EventPublicationStartDate/>
+<EventPublicationEndDate/>
+</Event>
+</Impact>
+<Impact ID="IRE4">
+<Stop StopIdx="566615" StopPointIdx="12661" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="3" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>64320</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>52</Minute>
+</StopTime>
+<StopArrivalTime>
+<TotalSeconds>64200</TotalSeconds>
+<Day>0</Day>
+<Hour>17</Hour>
+<Minute>50</Minute>
+</StopArrivalTime>
+</Stop>
+<ImpactState>Disrupt</ImpactState>
+<ImpactStartDate>2013-07-11T00:00:00</ImpactStartDate>
+<ImpactEndDate>2013-07-11T23:59:00</ImpactEndDate>
+<ImpactCloseDate/>
+<ImpactDuration>0</ImpactDuration>
+<ImpactMessage>Attente d'un membre du personnel</ImpactMessage>
+<ImpactIREInfo>
+<IREZoneImpact>0</IREZoneImpact>
+<IREDegrade>0</IREDegrade>
+<IREDepart_EcartInterne>0</IREDepart_EcartInterne>
+<IREDepart_EcartExterne>0</IREDepart_EcartExterne>
+<IREDepart_Statut IREDepart_StatutCode="7">Suppression totale</IREDepart_Statut>
+<IREArrivee_EcartInterne>0</IREArrivee_EcartInterne>
+<IREArrivee_EcartExterne>0</IREArrivee_EcartExterne>
+<IREArrivee_Statut IREArrivee_StatutCode="7">Suppression totale</IREArrivee_Statut>
+</ImpactIREInfo>
+<Event EventID="" ProviderID="">
+<EventLevelTitle/>
+<EventTitle/>
+<EventExternalCode/>
+<EventPublicationStartDate/>
+<EventPublicationEndDate/>
+</Event>
+</Impact>
+<Impact ID="IRE5">
+<Stop StopIdx="17748" StopPointIdx="12604" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="5" VehicleIdx="8">
+<StopTime/>
+<StopArrivalTime>
+<TotalSeconds>67020</TotalSeconds>
+<Day>0</Day>
+<Hour>18</Hour>
+<Minute>37</Minute>
+</StopArrivalTime>
+</Stop>
+<ImpactState>Disrupt</ImpactState>
+<ImpactStartDate>2013-07-11T00:00:00</ImpactStartDate>
+<ImpactEndDate>2013-07-11T23:59:00</ImpactEndDate>
+<ImpactCloseDate/>
+<ImpactDuration>0</ImpactDuration>
+<ImpactMessage>Attente d'un membre du personnel</ImpactMessage>
+<ImpactIREInfo>
+<IREZoneImpact>0</IREZoneImpact>
+<IREDegrade>0</IREDegrade>
+<IREDepart_EcartInterne>0</IREDepart_EcartInterne>
+<IREDepart_EcartExterne>0</IREDepart_EcartExterne>
+<IREDepart_Statut IREDepart_StatutCode="0"/>
+<IREArrivee_EcartInterne>0</IREArrivee_EcartInterne>
+<IREArrivee_EcartExterne>0</IREArrivee_EcartExterne>
+<IREArrivee_Statut IREArrivee_StatutCode="7">Suppression totale</IREArrivee_Statut>
+</ImpactIREInfo>
+<Event EventID="" ProviderID="">
+<EventLevelTitle/>
+<EventTitle/>
+<EventExternalCode/>
+<EventPublicationStartDate/>
+<EventPublicationEndDate/>
+</Event>
+</Impact>
+<Impact ID="IRE6">
+<Stop StopIdx="592976" StopPointIdx="12687" VehicleJourneyIdx="17737" HourNumber="0" MinuteNumber="0" DestinationPos="-1" ODTIdx="0" ODTPos="-1" ValidityPatternSetCommentPos="0" StopOrder="4" VehicleIdx="8">
+<StopTime>
+<TotalSeconds>66060</TotalSeconds>
+<Day>0</Day>
+<Hour>18</Hour>
+<Minute>21</Minute>
+</StopTime>
+<StopArrivalTime>
+<TotalSeconds>66000</TotalSeconds>
+<Day>0</Day>
+<Hour>18</Hour>
+<Minute>20</Minute>
+</StopArrivalTime>
+</Stop>
+<ImpactState>Disrupt</ImpactState>
+<ImpactStartDate>2013-07-11T00:00:00</ImpactStartDate>
+<ImpactEndDate>2013-07-11T23:59:00</ImpactEndDate>
+<ImpactCloseDate/>
+<ImpactDuration>0</ImpactDuration>
+<ImpactMessage>Attente d'un membre du personnel</ImpactMessage>
+<ImpactIREInfo>
+<IREZoneImpact>0</IREZoneImpact>
+<IREDegrade>0</IREDegrade>
+<IREDepart_EcartInterne>0</IREDepart_EcartInterne>
+<IREDepart_EcartExterne>0</IREDepart_EcartExterne>
+<IREDepart_Statut IREDepart_StatutCode="7">Suppression totale</IREDepart_Statut>
+<IREArrivee_EcartInterne>0</IREArrivee_EcartInterne>
+<IREArrivee_EcartExterne>0</IREArrivee_EcartExterne>
+<IREArrivee_Statut IREArrivee_StatutCode="7">Suppression totale</IREArrivee_Statut>
+</ImpactIREInfo>
+<Event EventID="" ProviderID="">
+<EventLevelTitle/>
+<EventTitle/>
+<EventExternalCode/>
+<EventPublicationStartDate/>
+<EventPublicationEndDate/>
+</Event>
+</Impact>
+</ImpactList>
+</ActionVehicleJourneyDetailList>
